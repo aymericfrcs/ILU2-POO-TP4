@@ -2,7 +2,7 @@ package produit;
 
 public enum Unite {
 	LITRE("l"), CENTILITRE("cl"), MILILITRE("ml"), GRAMME("g"), 
-	KILOGRAMME("kg"), PIECE("pièce(s)");
+	KILOGRAMME("kg"), PIECE("piÃ¨ce(s)");
 	
 	private String nom;
 	

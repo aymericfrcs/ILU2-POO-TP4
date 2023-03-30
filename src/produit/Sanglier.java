@@ -3,19 +3,18 @@ import personnages.Gaulois;
 
 public class Sanglier extends Produit {
 	private String nom = "Sanglier";
-	private Unite unite = Unite.KILOGRAMME;
+	private Unite unite = Unite.GRAMME;
 	
 	private int poids;
 	private Gaulois chasseur;
 	
-	public Sanglier(String nom, int poids, Gaulois chasseur) {
-		this.nom = nom;
+	public Sanglier(int poids, Gaulois chasseur) {
 		this.poids = poids;
 		this.chasseur = chasseur;
 	}
 	
 	public String description() {
 		return (nom + " de " + poids + unite.toString() 
-				+ " chassé par " + chasseur.getNom());
+				+ " chassï¿½ par " + chasseur.getNom());
 	}
 }
